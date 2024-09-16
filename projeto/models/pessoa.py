@@ -18,6 +18,7 @@ class Pessoa:
             f"\ndata de nascimento: {self.dataNascimento}"
             f"\ntelefone: {self.telefone}"
             f"\ne-mail: {self.email}"
-            f"\nsexo: {self.sexo.value}"
+            f"\nsexo: {self.sexo.texto}"
+            f"\nsexo: {self.sexo.caracter}"
             f"\n---endereço---: {self.endereco}"
                 )
